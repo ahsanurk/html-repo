@@ -1,9 +1,26 @@
-*{
-    margin: 0;
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
 }
 div{
+    width: 780px;
+    height: auto;
     background-color: tomato;
     padding: 10px;
     border: 5px solid green;
     border-radius: 10px;
+}
+
+img{
+    width: 780px;
+    height: auto;
 }
